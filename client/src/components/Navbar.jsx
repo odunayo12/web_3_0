@@ -24,6 +24,7 @@ const Navbar = () => {
         {navItems.map((item, index) => {
           return <NavbarItem title={item} classProps={index} />;
         })}
+        <li className="bg-[#2952e3] py-2 px-7">Login</li>
       </ul>
     </nav>
   );
